@@ -23,19 +23,17 @@
     margin: 8px -16px;
   }
   
-  .rowTwo {
-    margin: 8px -16px;
-  }
-
   .rowThree {
     margin: 8px -16px;
   }
 
-  .rowFour {
-    margin: 8px -16px;
+
+  .rowFive {
+    margin: 8px - 16px;
   }
 
-  /* Add padding BETWEEN each column (if you want) */
+
+  /* Add padding BETWEEN each column */
   .row,
   .row > .column {
     padding: 8px;
@@ -46,13 +44,23 @@
     padding: 8px;
   }
 
-  /* Create four equal columns that floats next to each other */
+  .rowFour,
+  .rowFive > .columnThree {
+    padding: 8px;
+  }
+
+  /* Create equal columns that floats next to each other */
   .column {
     float: left;
     width: 33.333%;
   }
 
   .columnTwo {
+    float: left;
+    width: 50%;
+  }
+
+  .columnThree {
     float: left;
     width: 50%;
   }
@@ -65,6 +73,12 @@
   }
 
   .rowThree:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .rowFive:after {
     content: "";
     display: table;
     clear: both;
