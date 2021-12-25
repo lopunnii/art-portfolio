@@ -27,7 +27,6 @@
     margin: 8px -16px;
   }
 
-
   .rowFive {
     margin: 8px - 16px;
   }
@@ -39,14 +38,20 @@
     padding: 8px;
   }
   
-  .rowTwo,
+  .rowThree,
   .rowThree > .columnTwo {
     padding: 8px;
   }
 
-  .rowFour,
+  .rowFive,
   .rowFive > .columnThree {
     padding: 8px;
+  }
+
+  .rowTwo,
+  .rowFour,
+  .rowSix {
+    padding: 14px;
   }
 
   /* Create equal columns that floats next to each other */
